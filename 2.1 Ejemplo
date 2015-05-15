@@ -1,0 +1,8 @@
+x<-1:5
+#Subset filtra datos, extrae datos que cumplen una condicion
+y<-subset(x,subset =>3)
+y<-x[x>3]
+print(y)
+#Dentro de una data, mtcars
+View(mtcars)  #data frame
+table(mtcars[,"cyl"]) #arroja frecuencias
